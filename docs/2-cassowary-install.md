@@ -18,8 +18,7 @@ Here we will be using Arch Linux. You can easily find equivalent commands for yo
 - Install `python3`, `python3-pip`, `freerdp2`, `libvirt-python3` packages and dependencies by running following commands on terminal:
 
 ```bash
-$ sudo pacman -S python3 python3-pip freerdp libvirt-python
-$ pip3 install PyQt5
+$ sudo pacman -S python3 python-pip freerdp libvirt-python python-pyqt5
 ```
 
 - Install the downloaded `.whl` file by running:
